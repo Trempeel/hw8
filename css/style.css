@@ -1,0 +1,56 @@
+.pink {
+    color:pink;
+}
+
+.grey {
+    color:grey;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* zadaniye 2 */
+.week:visited {
+    color: chocolate;
+}
+.week:link {
+    color:blueviolet
+}
+
+.week:focus {
+    color: red;
+}
+
+.week:hover {
+    color:palevioletred
+}
+
+.week:active {
+    color:aqua;
+}
+
+.list .week {
+    list-style:none;
+}
+
+.week:first-child {
+     font-weight: bold;
+     font-weight: 700;
+}
+
+ .week:last-child { 
+    font-style: italic; 
+}
+
+  .week:nth-child(even){
+     color: blue;
+}
