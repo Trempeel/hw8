@@ -1,17 +1,17 @@
-.pink {
-    color:pink;
+.text-box h3:nth-of-type(1) {
+  color: pink;
 }
 
-.grey {
+.text-box > div:nth-of-type(2) > p {
+  color: red;
+}
+
+.text-box p:nth-of-type(3) {
+  color: green;
+}
+
+#greycol {
     color:grey;
-}
-
-.red {
-    color: red;
-}
-
-.green {
-    color: green;
 }
 
 .yellow {
