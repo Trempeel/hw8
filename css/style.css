@@ -54,3 +54,39 @@
   .week:nth-child(even){
      color: blue;
 }
+/* zadaniye 2.1 */
+.weekend:visited {
+    color: chocolate;
+}
+.weekend:link {
+    color:blueviolet
+}
+
+.weekend:focus {
+    color: red;
+}
+
+.weekend:hover {
+    color:palevioletred
+}
+
+.weekend:active {
+    color:aqua;
+}
+
+.list .weekend {
+    list-style:none;
+}
+
+.weekend:first-child {
+     font-weight: bold;
+     font-weight: 700;
+}
+
+ .weekend:last-child { 
+    font-style: italic; 
+}
+
+ .weekend:nth-child(even){
+     color: blue;
+}
